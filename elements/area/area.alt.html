@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="https://www.w3schools.com/tags/" />
+    <link rel="stylesheet" href="../../global.css" />
     <title>Elementos Map e Area</title>
     <style>
       body {
@@ -23,32 +24,27 @@
       saber
     </p>
 
-    <img
-      src="workplace.jpg"
-      alt="Workplace"
-      usemap="#workMap"
-      width="400"
-      height="379"
-    />
+    <img src="workplace.jpg" usemap="#workMap" width="400" height="379" />
 
     <map name="workMap">
       <area
         shape="rect"
         coords="34,44,270,350"
         alt="Computer"
-        href="computer.htm"
+        href="computer.html"
+        hreflang="en"
       />
       <area
         shape="rect"
         coords="290,172,333,250"
         alt="Phone"
-        href="phone.htm"
+        href="phone.html"
       />
       <area
         shape="circle"
         coords="337,300,44"
         alt="Cup of coffee"
-        href="coffee.htm"
+        href="coffee.html"
       />
     </map>
   </body>
