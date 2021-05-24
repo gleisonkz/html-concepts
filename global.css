@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+}
+
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-family: consolas;
+  color: #d4d4d4;
+}
+
+.property {
+  color: #9cdcfe;
+}
+.value {
+  color: #ce9178;
+}
